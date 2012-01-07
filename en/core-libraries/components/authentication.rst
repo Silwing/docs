@@ -337,7 +337,7 @@ callback of your model::
 
 You don't need to hash passwords before calling ``$this->Auth->login()``.
 The various authentication objects will hash passwords individually. If
-you are using Digest authentication, use should not use
+you are using Digest authentication, you should not use
 AuthComponent::password() for generating passwords.  See below for how
 to generate digest hashes.
 
